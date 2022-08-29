@@ -1,0 +1,32 @@
+body{
+    font-style: "Comic Sans MS";
+}
+.cuadro{
+    width: 450px;
+    height: 170px;
+    border: black solid;
+    font-family:"Comic Sans MS";
+
+}
+.division1{
+    margin-top: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+.boton{
+    width: 60px;
+    height: 30px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px;
+}
+.division2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}

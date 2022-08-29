@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor0{
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+/*---------------CONTENEDOR 1--------------------------*/
+
+.contenedor1{
+    display: flex;
+    width: 660px;
+    flex-direction: column;
+}
+.bloque1{
+    border: black solid;
+    display: flex;
+    flex: 1;
+    background-color: black;
+}
+.bloque1 p{
+    font-size: 30px;
+    color: white;
+    margin: 3px 3px 3px 15px;
+}
+.bloque2{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.bloque2 p{
+    font-size: 30px;
+    margin: 5px;
+}
+
+/*----------------------CONTENEDOR 2------------------------*/
+.contenedor2{
+    width: 650px;
+    height: 500px;
+    display: flex;
+
+}
+.columna1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.columna2{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+/*----------------DETALLES COLUMNA 1-----------------------*/
+.James{
+    border:black solid;
+    width: 180px;
+    height: 260px;
+    margin-right: 20px;
+    display: flex;
+
+}
+
+.James ul{
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    padding: 0px;
+    padding-left: 15px;
+    line-height: 30px;
+}
+
+.img_usuario{
+    margin-bottom: 15px;
+    width: 90px;
+    height: 90px;
+}
+
+
+/*-------------DETALLES COLUMNA 2----------------------*/
+
+.like1, .like2, .like3{
+    width: 450px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: black solid;
+}
+.division1{
+    padding: 10px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.Usuario{
+    display: flex;
+    flex: 1;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.likes{
+    display: flex;
+    flex: 2;
+    justify-content: end;
+}
+
+.likes ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.boton_like1,.boton_like2, .boton_like3{
+    width: 60px;
+    height: 30px;
+    background-color: #ffd966;
+    box-shadow: 4px 4px;
+    font-size: 20px;
+    margin-left: 35px;
+}
+.division2{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.division2 p{
+    margin: 0px;
+    font-size: 20px;
+}
